@@ -218,7 +218,56 @@ const number =[1,2,3,4,5];
 //     })
 //     console.log(store);
 
-const a=[1,2,3];
-const b=[4,5,6];
-const d=[7,8,9];
+//concat method...
+// const a=[1,2,3];
+// const b=[4,5,6];
+// const d=[7,8,9];
+// const c=a.concat(b,d,a);
+// // console.log(c);
+// // c.push(4);
+// console.log(c);//it is the shallow copy do not the change the original array.
+// const p=a.concat(1,2,a);//add value also
+// console.log(p)
 
+//fill method ********
+// function fillNumbers(n){
+//     return Array(n).fill(0).map((_,idx)=>idx+1);
+// }
+// console.log(fillNumbers(10));
+
+//include method .......****
+// const fruits =['Apple','Mango'];
+// const res=fruits.includes('Orange');
+// if(res){
+//     console.log('Yuppy');
+// }else{
+//     console.log("Sad... Let's buy an orange");
+// }
+
+
+//Join method ********
+// const countries=['Romania','Usa',"india"];
+// const countries1=['Romania','Usa',"india"];
+// // const res=countries.join('-');
+// const res=countries.join(countries1);
+// console.log(res);
+// const numbers=[1,2,4,5,6];
+// // numbers.reverse(numbers);
+// const rest=numbers.concat().reverse();
+// console.log(rest)
+
+// const str='Coding is fun!';
+// const res=str.split('').reverse().join('');
+// console.log(res);
+
+//push method ******
+// const numbers=[1,2,3,4];
+// const total=numbers.push(4,5,6,7,8);
+// console.log(total+","+numbers);
+
+//pop method ****
+// const numbers=[1,2,3];
+// const lastItem=numbers.pop();
+// console.log(lastItem)
+
+//unshift method ********
