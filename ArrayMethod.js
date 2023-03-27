@@ -271,3 +271,91 @@ const number =[1,2,3,4,5];
 // console.log(lastItem)
 
 //unshift method ********
+// const numbers=[1,2,3];
+// numbers.unshift(0,4);
+// console.log(numbers)
+//shift *****
+// const numbers=[1,2,3];
+// const fi=numbers.shift(1);
+// console.log(numbers)
+
+// //indexOf method lastIndexOf method****
+// const n=['a','b','c','d','e','f','a'];
+// const num=n.indexOf('aa');//begining of the array.
+// const num1=n.lastIndexOf('a');//end of the array.
+// console.log(num,num1);
+
+//every method *****
+// const n=[
+//     {
+//         name:'shi',
+//     },
+//     {
+//         name:'shi'
+//     },
+//     {
+//         name:'shi'
+//     }
+// ]
+// const value=n.every(item=>item.name!==undefined)
+// console.log(value);
+
+// const arrys=[[1,2,3],[4,5,7],[123,4],"54"];
+// const res=arrys.every(arr=>Array.isArray(arr));
+// console.log(res);
+
+//some method *******
+
+// const numbers=[1,2,3,4];
+// const n=numbers.some((item=>item>4));
+// console.log(n);
+// const persons=[
+//     {
+//         name:'shivam',
+//         age:12
+//     },
+//     {
+//        name:'ajay',
+//        age:13,
+//     },
+//     {
+//       name:'roan',
+//       age:15}
+// ]
+// const res=persons.some((pers)=>pers.age>12);
+// console.log(res);
+
+//find method *****************//and findIndex method return index
+// const persons=[
+//         {
+//             name:'shivam',
+//             age:12
+//         },
+//         {
+//            name:'ajay',
+//            age:13,
+//         },
+//         {
+//           name:'roan',
+//           age:15}
+//     ]
+//     const res=persons.find((item)=>{
+//         return item.name==='shivam';
+//     })
+//     console.log(res);
+
+//from method ******
+// const str="123456";
+// // const res=Array.from(str,x=>Number(x));
+// // function mapFn(x){
+// //     return Number(x);
+// // }
+
+// console.log(res);
+
+// const numbers=[1,2,3,4,5,6,7,8,92,3,4,53,2,3,5,32];
+// const res=Array.from(new Set(numbers));
+// console.log(res);
+// const friends=['shivam','vishnu','ram','shivam'];
+// const res=Array.from(new Set(friends));
+// console.log(res);
